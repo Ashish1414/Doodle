@@ -40,10 +40,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Announcements" />
         <activity android:name=".AddFaculty" />
-        <activity android:name=".Youtube_Videos"
-            >
-            <action android:name="OPEN_ACTIVITY_2" />
-            <category android:name="android.intent.category.DEFAULT" />
+        <activity android:name=".Youtube_Videos">
+            <intent-filter>
+                <action android:name="OPEN_ACTIVITY_2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity android:name=".AddStudent" />
         <activity android:name=".Report" />
@@ -79,8 +80,10 @@
         <activity
             android:name=".Login"
             android:theme="@style/AppTheme.NoActionBar" >
-            <action android:name="OPEN_ACTIVITY_3" />
-            <category android:name="android.intent.category.DEFAULT" />
+            <intent-filter>
+                <action android:name="OPEN_ACTIVITY_3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
 
         <service
