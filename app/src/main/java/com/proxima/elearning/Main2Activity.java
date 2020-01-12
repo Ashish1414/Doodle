@@ -97,7 +97,7 @@ public class Main2Activity extends AppCompatActivity {
                     ":"+c.get(Calendar.MINUTE)+
                     ":"+c.get(Calendar.SECOND);
 
-            notificationData.add(new notification_data("0",sDate,"Welcome At Doodle","We welcomes you to the Doodle an online e learning platform for Apeejay Stya University"));
+            notificationData.add(new notification_data("0",sDate,"Welcome At Doodle","We welcomes you to the Doodle an online e learning platform for RAECES"));
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putBoolean("isNewUser",false);
             editor.commit();

@@ -30,10 +30,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Doodle a unit of Apeejay Stya University (ASU)
-        \nThe app is made for the purpose to make learning easy for the students of ASU and also have all the records handy
+            android:text="RAECES Learn a unit of RAECES
+        \nThe app is made for the purpose to make learning easy for the students of RAECES and also have all the records handy
         \n we provide notes fee status online fee payment and many other things to the students
-        \nOur main aim is to provide quality of experience to students in ASU."
+        \nOur main aim is to provide quality of experience to students in RAECES."
             android:layout_margin="20dp"
             android:textColor="#190707"
             android:textStyle="bold"

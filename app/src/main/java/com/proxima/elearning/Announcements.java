@@ -65,7 +65,7 @@ public class Announcements extends AppCompatActivity {
                 try {
                     notifcationBody.put("body", NOTIFICATION_MESSAGE);
                     notifcationBody.put("title", NOTIFICATION_TITLE);
-
+                    notifcationBody.put("click_action" , "OPEN_ACTIVITY_1");
 
                     notification.put("to", TOPIC);
                     notification.put("collapse_key","type_a");

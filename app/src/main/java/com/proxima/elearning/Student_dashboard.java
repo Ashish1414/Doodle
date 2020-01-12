@@ -177,7 +177,7 @@ public void onClick(View view) {
                 else if(menuItem.getItemId()==R.id.social)
                 {
                         Intent intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setData(Uri.parse("https://instagram.com"));
+                        intent.setData(Uri.parse("https://www.instagram.com/ashubansal_14/"));
                         startActivity(intent);
                 }
                 else {

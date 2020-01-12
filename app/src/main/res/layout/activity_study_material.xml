@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textAllCaps="true"
-                android:text="CCC(Course On compute Concepts"
+                android:text="CCC(Course On computer Concepts"
                 android:textSize="30dp"
                 android:textStyle="bold|italic"
                 />

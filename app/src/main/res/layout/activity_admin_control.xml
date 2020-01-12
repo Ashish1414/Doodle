@@ -15,12 +15,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="30sp"
+            android:text="Welcome To RAECES"
             android:textAlignment="center"
-            android:typeface="serif"
             android:textColor="#190707"
+            android:textSize="30sp"
             android:textStyle="bold"
-            android:text="Welcome To Doodle">
+            android:typeface="serif">
 
         </TextView>
 
@@ -188,7 +188,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/faculty" />
+                        android:src="@drawable/addfaculty" />
 
                     <TextView
                         android:layout_width="wrap_content"
