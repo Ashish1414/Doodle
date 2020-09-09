@@ -39,14 +39,12 @@ public class Discussion_forum extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     SharedPreferences sharedPreferences;
     FloatingActionButton addQuestions;
-
     RequestQueue requestQueue;
     List<Questions> questionsList = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_discussion_forum);
-
         ActionBar actionBar = getSupportActionBar();
         if(actionBar!=null)
         {
